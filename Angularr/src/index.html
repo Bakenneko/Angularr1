@@ -1,0 +1,81 @@
+<!--<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<script>
+  var app = angular.module("myApp", []);
+  app.directive("w3TestDirective", function() {
+    return {
+      template : "I was made in a directive constructor!"
+    };
+  });
+</script>
+
+
+</body>
+</html>-->
+
+
+<!--<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+{{ firstName + " " + lastName}}
+</div>
+
+<script>
+  var app = angular.module("myApp", []);
+
+  app.controller("myCtrl", function ($scope) {
+    $scope.firstName = "Andrew";
+    $scope.lastName = "Kurylyk";
+  });
+
+</script>
+</body>
+</html>-->
+
+<!--<!doctype html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+&lt;!&ndash;<div ng-app="" ng-init="points=[1,5,6,8]">
+<p> The third result is {{ points[3] }}</p>
+</div>&ndash;&gt;
+
+<div ng-app = "" ng-init = "points = [20,40,60,80,100]"></div>
+<p>The third result is <span ng-bind="points[2]"></span></p>
+</body>
+</html>-->
+
+<!--<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="" ng-init="person={firstName:'John',lastName:'Doe'}">
+
+  <p>The name is <span ng-bind="person.lastName"></span></p>
+
+</div>
+
+</body>
+</html>-->
+
+<!--<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="" ng-init="person={firstName:'John',lastName:'Doe'}">
+
+  <p>The name is {{ person.firstName }}</p>
+
+</div>
+
+</body>
+</html>-->
